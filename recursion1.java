@@ -4,7 +4,7 @@ public  class recursion1{
         if(n ==1){
             System.out.println(n);
             return ;
-            //  assuming below code will run correctly  from 1 to n-1 last  number we will print by our own
+            
             
         } printincreasing(n-1);
         System.out.println(n);
@@ -14,7 +14,7 @@ public  class recursion1{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printincreasing(n);
-        // ans
+        
 
 
         
