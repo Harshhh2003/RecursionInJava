@@ -1,4 +1,4 @@
-// given an integer find out the sum of its digitsnusingb recursion
+// given an integer find out the sum of its digits using" recursion
 public class recursion5{
     static int sumofdigits(int n){
         // base case 
