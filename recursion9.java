@@ -8,6 +8,8 @@ public class recursion9{
 
     } return y;
 
+    } static int lcm(int x , int y){
+        return  ( x*y)/ gcd(x, y);
     }
     
     public static void main(String[] args) {
@@ -17,7 +19,8 @@ public class recursion9{
          System.out.println("enter the value of y  :  "); 
         
         int y = sc.nextInt();
-        System.out.println(" ans is    : "   + gcd(x, y));
+        System.out.println(" the gcd is    : "   + gcd(x, y));
+        System.out.println(" the lcm is   :   "   +  lcm(x, y));
         
     }
 }
